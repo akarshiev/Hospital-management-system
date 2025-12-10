@@ -1,15 +1,32 @@
-# Hospital-management-system
+# 🏥 Hospital Management System
 
-This project was created using the 'customtkinter' library in the Python programming language and is a simple desktop application that allows you to enter patient data, find suitable doctors for them, and view general statistics.
+A modern desktop application built with **CustomTkinter** (Python) for managing hospital patients, doctors, and medical statistics.
 
-## Install & Launch
+## ✨ Features
 
-To launch the project, you will need Python 3.x and a 'customtkinter' library.
+- **Patient Registration** — Add, edit, search, and delete patient records
+- **Doctor Directory** — Browse all available doctors with specialties and contact info
+- **Smart Doctor Matching** — Automatically finds the most suitable doctor based on illness keywords
+- **Statistics Dashboard** — View patient counts by age groups and doctor workload distribution
+- **Data Persistence** — All patient data is saved locally to a JSON file
 
-### Set requirements
-
-Run the following command in the terminal or command line:
+## 🚀 Installation
 
 ```bash
 pip install customtkinter
+python main.py
+```
+
+## 📁 Project Structure
+
+```
+Hospital-management-system/
+├── main.py          # Main application file
+├── patients.json    # Patient data (auto-generated)
+├── README.md        # English documentation
+├── docs/
+│   ├── README_UZ.md # Uzbek documentation
+│   ├── USAGE.md     # Usage guide (EN)
+│   └── FOYDALANISH.md # Usage guide (UZ)
+└── .gitignore
 ```
