@@ -14,6 +14,7 @@ A modern desktop application built with **CustomTkinter** (Python) for managing 
 
 ```bash
 pip install customtkinter
+sudo dnf install python3-tkinter
 python main.py
 ```
 
